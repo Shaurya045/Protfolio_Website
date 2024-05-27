@@ -28,9 +28,9 @@ export const Contact = () => {
     setButtonText("Sending...");
     let response = await fetch("https://protfolio-website-sudj.onrender.com/contact", {
       method: "POST",
-      // headers: {
-      //   "Content-Type": "application/json;charset=utf-8",
-      // },
+      headers: {
+        "Content-Type": "application/json;charset=utf-8",
+      },
       body: JSON.stringify(formDetails),
     });
     setButtonText("Send");
