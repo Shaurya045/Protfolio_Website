@@ -1,27 +1,83 @@
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import { MailchimpForm } from "./MailchimpForm";
-import logo from "../assets/img/logo.svg";
-import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { SiHashnode } from "react-icons/si";
+import { FaLinkedinIn } from "react-icons/fa";
 
-export const Footer = () => {
+function Footer() {
+  let date = new Date();
+  let year = date.getFullYear();
   return (
-    <footer className="footer">
-      <Container>
-        <Row className="align-items-center">
-          {/* <MailchimpForm /> */}
-          <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" />
-          </Col>
-          <Col size={12} sm={6} className="text-center text-sm-end">
-            <div className="social-icon">
-              <a href="https://www.linkedin.com/in/shauryapratapsingh01/" target="_blank"><img src={navIcon1} alt="Icon" /></a>
-              <a href="https://www.instagram.com/_shaurya_psingh08/" target="_blank"><img src={navIcon3} alt="Icon" /></a>
-            </div>
-            <p>Copyright 2024 Shaurya Pratap Singh. All Rights Reserved</p>
-          </Col>
-        </Row>
-      </Container>
-    </footer>
-  )
+    <Container fluid className="footer">
+      <Row>
+        <Col md="4" className="footer-copywright">
+          <h3>Designed and Developed by Shaurya Pratap Singh</h3>
+        </Col>
+        <Col md="4" className="footer-copywright">
+          <h3>Copyright © {year} Shaurya Pratap Singh</h3>
+        </Col>
+        <Col md="4" className="footer-body">
+          <ul className="footer-icons">
+            <li className="social-icons">
+              <a
+                href="https://github.com/shaurya045"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillGithub />
+              </a>
+            </li>
+            {/* <li className="social-icons">
+              <a
+                href="https://twitter.com/Pratapswarn"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiOutlineTwitter />
+              </a>
+            </li> */}
+            <li className="social-icons">
+              <a
+                href="https://www.linkedin.com/in/shauryapratapsingh01/"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.instagram.com/_shaurya_psingh08/"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillInstagram />
+              </a>
+            </li>
+            {/* <li className="social-icons">
+              <a
+                href="https://swarn.hashnode.dev/"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <SiHashnode  />
+              </a>
+            </li> */}
+            
+          </ul>
+        </Col>
+      </Row>
+    </Container>
+  );
 }
+
+export default Footer;

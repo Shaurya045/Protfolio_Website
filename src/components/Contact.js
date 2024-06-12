@@ -4,7 +4,7 @@ import contactImg from "../assets/img/contact-img.svg";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
-export const Contact = () => {
+function Contact() {
   const formInitialDetails = {
     firstName: "",
     lastName: "",
@@ -26,13 +26,16 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-    let response = await fetch("https://protfolio-website-sudj.onrender.com/contact", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(formDetails),
-    });
+    let response = await fetch(
+      "https://protfolio-website-sudj.onrender.com/contact",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json;charset=utf-8",
+        },
+        body: JSON.stringify(formDetails),
+      }
+    );
     setButtonText("Send");
     let result = await response.json();
     setFormDetails(formInitialDetails);
@@ -79,6 +82,7 @@ export const Contact = () => {
                           type="text"
                           value={formDetails.firstName}
                           placeholder="First Name"
+                          required
                           onChange={(e) =>
                             onFormUpdate("firstName", e.target.value)
                           }
@@ -99,6 +103,7 @@ export const Contact = () => {
                           type="email"
                           value={formDetails.email}
                           placeholder="Email Address"
+                          required
                           onChange={(e) =>
                             onFormUpdate("email", e.target.value)
                           }
@@ -109,6 +114,7 @@ export const Contact = () => {
                           type="tel"
                           value={formDetails.phone}
                           placeholder="Phone No."
+                          required
                           onChange={(e) =>
                             onFormUpdate("phone", e.target.value)
                           }
@@ -119,6 +125,7 @@ export const Contact = () => {
                           rows="6"
                           value={formDetails.message}
                           placeholder="Message"
+                          required
                           onChange={(e) =>
                             onFormUpdate("message", e.target.value)
                           }
@@ -148,4 +155,6 @@ export const Contact = () => {
       </Container>
     </section>
   );
-};
+}
+
+export default Contact;
