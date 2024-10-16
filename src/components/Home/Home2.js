@@ -22,22 +22,35 @@ function Home2() {
                 LET ME <span className="purple"> INTRODUCE </span> MYSELF
               </h1>
               <p className="home-about-body">
-                I am a final year student at
+                I am a final-year B.Tech student in Computer Science and
+                Engineering at
                 <i>
                   <b className="purple">
                     {" "}
-                    Rajiv Gandhi Institue of Petroleum Technology{" "}
+                    Rajiv Gandhi Institue of Petroleum Technology.{" "}
                   </b>
                 </i>
-                which is located in Jais, UttarPradesh.
+                With a strong foundation in web development, I specialize in
+                full-stack technologies such as React.js, Node.js, MongoDB, and
+                Docker.
                 <br />
-                <br />Currently pursuing my B.Tech in Computer Science and Engineering. I've completed my 3rd year and am eager to showcase my skills and projects.
                 <br />
-                <br />I have worked on startup projects like &nbsp;
-                <i>
+                Currently, I am a Web Developer Intern at Dumbledore Media,
+                where I work on building and deploying responsive, feature-rich
+                websites. I’ve gained practical experience in utilizing Vercel
+                and Render for deployments, integrating advanced functionalities
+                like 3D responsiveness with React Three Fibre, and managing
+                server uptime with UptimeRobot.
+                <br />
+                <br />
+                My projects reflect my passion for problem-solving and
+                innovation, ranging from optimizing food recycling logistics to
+                building review systems and facial recognition tools. I am
+                always eager to learn and collaborate on new challenges.
+                {/* <i>
                   <b className="purple">BMC Design Media, </b>
                   <b className="purple">and Pratap Library.</b>
-                </i>
+                </i> */}
                 <br />
                 {/* <br />I find time to work on my passion of building things by
                 using technologies like
@@ -64,14 +77,16 @@ function Home2() {
                 Feel free to <span className="purple">connect </span>with me
               </p>
               <ul className="home-about-social-links">
-                <li className="social-icons">
+                <li className="social-icons ">
                   <a
                     href="https://github.com/shaurya045"
                     target="_blank"
                     rel="noreferrer"
-                    className="icon-colour  home-social-icons"
+                    className="icon-colour  home-social-icons "
                   >
-                    <AiFillGithub />
+                    <div className="w-full h-full flex flex-row justify-center items-center">
+                      <AiFillGithub />
+                    </div>
                   </a>
                 </li>
                 {/* <li className="social-icons">
@@ -91,7 +106,9 @@ function Home2() {
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
                   >
-                    <FaLinkedinIn />
+                    <div className="w-full h-full flex flex-row justify-center items-center">
+                      <FaLinkedinIn />
+                    </div>
                   </a>
                 </li>
                 <li className="social-icons">
@@ -101,7 +118,9 @@ function Home2() {
                     rel="noreferrer"
                     className="icon-colour home-social-icons"
                   >
-                    <AiFillInstagram />
+                    <div className="w-full h-full flex flex-row justify-center items-center">
+                      <AiFillInstagram />
+                    </div>
                   </a>
                 </li>
                 {/* <li className="social-icons">

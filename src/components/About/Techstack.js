@@ -27,55 +27,89 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <div className="flex justify-center items-center">
+          <CgCPlusPlus />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <div className="flex justify-center items-center">
+          <DiPython />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <div className="flex justify-center items-center">
+          <DiJavascript1 />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTypescript />
+        <div className="flex justify-center items-center">
+          <SiTypescript />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 />
+        <div className="flex justify-center items-center">
+          <DiHtml5 />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiCss3 />
+        <div className="flex justify-center items-center">
+          <DiCss3 />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <div className="flex justify-center items-center">
+          <DiReact />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <RiNextjsFill />
+        <div className="flex justify-center items-center">
+          <RiNextjsFill />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <RiTailwindCssFill />
+        <div className="flex justify-center items-center">
+          <RiTailwindCssFill />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandThreejs />
+        <div className="flex justify-center items-center">
+          <TbBrandThreejs />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <div className="flex justify-center items-center">
+          <DiNodejs />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiExpress />
+        <div className="flex justify-center items-center">
+          <SiExpress />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <div className="flex justify-center items-center">
+          <DiMongodb />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMysql />
+        <div className="flex justify-center items-center">
+          <DiMysql />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiFirebase />
+        <div className="flex justify-center items-center">
+          <DiFirebase />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandSocketIo />
+        <div className="flex justify-center items-center">
+          <TbBrandSocketIo />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <div className="flex justify-center items-center">
+          <DiGit />
+        </div>
       </Col>
     </Row>
   );

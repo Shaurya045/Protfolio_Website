@@ -19,40 +19,64 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiWindows />
+        <div className="flex justify-center items-center">
+          <SiWindows />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <div className="flex justify-center items-center">
+          <SiVisualstudiocode />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGithub />
+        <div className="flex justify-center items-center">
+          <SiGithub />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiDocker />
+        <div className="flex justify-center items-center">
+          <SiDocker />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJest />
+        <div className="flex justify-center items-center">
+          <SiJest />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
+        <div className="flex justify-center items-center">
+          <SiLinux />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiUbuntu />
+        <div className="flex justify-center items-center">
+          <SiUbuntu />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <div className="flex justify-center items-center">
+          <SiVercel />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRender />
+        <div className="flex justify-center items-center">
+          <SiRender />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <div className="flex justify-center items-center">
+          <SiPostman />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAdobepremierepro />
+        <div className="flex justify-center items-center">
+          <SiAdobepremierepro />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAdobeillustrator />
+        <div className="flex justify-center items-center">
+          <SiAdobeillustrator />
+        </div>
       </Col>
     </Row>
   );

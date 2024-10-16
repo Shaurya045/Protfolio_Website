@@ -116,7 +116,7 @@ function NavBar() {
                   <AiOutlineFundProjectionScreen
                     style={{ marginBottom: "2px" }}
                   />{" "}
-                  <span className="ml-2">About</span>
+                  <span className="ml-2">Projects</span>
                 </div>
               </Nav.Link>
             </Nav.Item>
@@ -129,7 +129,7 @@ function NavBar() {
               >
                 <div className="flex items-center">
                   <CgFileDocument style={{ marginBottom: "2px" }} />
-                  <span className="ml-2">Projects</span>
+                  <span className="ml-2">Resume</span>
                 </div>
               </Nav.Link>
             </Nav.Item>
@@ -142,7 +142,7 @@ function NavBar() {
               >
                 <div className="flex items-center">
                   <CgFileDocument style={{ marginBottom: "2px" }} />
-                  <span className="ml-2">Resume</span>
+                  <span className="ml-2">Contact</span>
                 </div>
               </Nav.Link>
             </Nav.Item>

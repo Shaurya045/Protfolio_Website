@@ -33,8 +33,10 @@ function ResumeNew() {
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
-            <AiOutlineDownload />
-            &nbsp;Download CV
+            <div className="flex flex-row justify-center items-center">
+              <AiOutlineDownload />
+              &nbsp;Download CV
+            </div>
           </Button>
         </Row>
 
@@ -55,8 +57,10 @@ function ResumeNew() {
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
-            <AiOutlineDownload />
-            &nbsp;Download CV
+            <div className="flex flex-row justify-center items-center">
+              <AiOutlineDownload />
+              &nbsp;Download CV
+            </div>
           </Button>
         </Row>
       </Container>
