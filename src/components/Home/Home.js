@@ -52,7 +52,7 @@ function Home() {
                     <img
                       src={headerImg}
                       alt="Header Img"
-                      className="img-fluid-home"
+                      className="img-fluid-home text-center"
                       style={{ maxHeight: "450px" }}
                     />
                   </div>

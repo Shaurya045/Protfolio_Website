@@ -76,7 +76,10 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
+                <div className="flex items-center">
+                  <AiOutlineHome style={{ marginBottom: "2px" }} />
+                  <span className="ml-2">Home</span>
+                </div>
               </Nav.Link>
             </Nav.Item>
 
@@ -96,8 +99,10 @@ function NavBar() {
                 }
                 onClick={() => onUpdateActiveLink("about")}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} />
-                About
+                <div className="flex items-center">
+                  <AiOutlineUser style={{ marginBottom: "2px" }} />
+                  <span className="ml-2">About</span>
+                </div>
               </Nav.Link>
             </Nav.Item>
 
@@ -107,10 +112,12 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
-                />{" "}
-                Projects
+                <div className="flex items-center">
+                  <AiOutlineFundProjectionScreen
+                    style={{ marginBottom: "2px" }}
+                  />{" "}
+                  <span className="ml-2">About</span>
+                </div>
               </Nav.Link>
             </Nav.Item>
 
@@ -120,7 +127,10 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <div className="flex items-center">
+                  <CgFileDocument style={{ marginBottom: "2px" }} />
+                  <span className="ml-2">Projects</span>
+                </div>
               </Nav.Link>
             </Nav.Item>
 
@@ -130,7 +140,10 @@ function NavBar() {
                 to="/contact"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Contact
+                <div className="flex items-center">
+                  <CgFileDocument style={{ marginBottom: "2px" }} />
+                  <span className="ml-2">Resume</span>
+                </div>
               </Nav.Link>
             </Nav.Item>
 
@@ -150,8 +163,10 @@ function NavBar() {
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+                <div className="flex items-center">
+                  <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
+                  <AiFillStar style={{ fontSize: "1.1em" }} />
+                </div>
               </Button>
             </Nav.Item>
           </Nav>
