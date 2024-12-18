@@ -30,23 +30,28 @@ function Home2() {
                     Rajiv Gandhi Institue of Petroleum Technology.{" "}
                   </b>
                 </i>
-                With a strong foundation in web development, I specialize in
-                full-stack technologies such as React.js, Node.js, MongoDB, and
-                Docker.
+                with a strong passion for web development, app development and
+                problem-solving. My expertise lies in React.js, Node.js,
+                MongoDB, React Native and Docker.
                 <br />
                 <br />
-                Currently, I am a Web Developer Intern at Dumbledore Media,
-                where I work on building and deploying responsive, feature-rich
-                websites. I’ve gained practical experience in utilizing Vercel
-                and Render for deployments, integrating advanced functionalities
-                like 3D responsiveness with React Three Fibre, and managing
-                server uptime with UptimeRobot.
+                I recently completed a Web Developer Internship at Deep Scan,
+                where I developed production-ready websites and built a
+                data-processing platform to automate CSV-to-JSON conversions for
+                real-time API processing. Prior to this, during my internship at
+                Dumbledore Media, I worked on creating and deploying dynamic
+                websites for diverse industries like travel and education. My
+                work included integrating 3D effects using React Three Fiber,
+                ensuring responsiveness, and managing backend uptime using tools
+                like UptimeRobot. I deployed projects seamlessly on platforms
+                like Vercel and Render.
                 <br />
                 <br />
-                My projects reflect my passion for problem-solving and
-                innovation, ranging from optimizing food recycling logistics to
-                building review systems and facial recognition tools. I am
-                always eager to learn and collaborate on new challenges.
+                My portfolio highlights impactful projects, including a
+                logistics platform for food recycling, real-time review systems,
+                and facial recognition tools. I’m passionate about solving
+                problems, learning new technologies, and contributing to
+                innovative solutions.
                 {/* <i>
                   <b className="purple">BMC Design Media, </b>
                   <b className="purple">and Pratap Library.</b>
