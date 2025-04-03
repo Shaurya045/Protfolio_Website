@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Thanks for dropping by my portolio website, its a great pleasure to have you here.
             <br />
-            Hi! I am <b className="purple">Swarn Pratap Singh</b> hailing from Patna, Bihar and based in <span className="purple">Pune, Maharashtra.</span>
+            Hi! I am <b className="purple">Shaurya Pratap Singh</b> hailing from Patna, Bihar and based in <span className="purple">Pune, Maharashtra.</span>
             <br />
             I am a young <b className="purple">tech enthusiast</b> hoping serve the world with my skillset and abilities. 
             <br />

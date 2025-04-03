@@ -608,6 +608,12 @@ button:focus {
   transition: all 0.4s ease 0s !important;
 }
 
+.active-filter {
+  background-color: #6e45e2; /* Purple color to match your theme */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(110, 69, 226, 0.5);
+}
+
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;
