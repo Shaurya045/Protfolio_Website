@@ -22,36 +22,33 @@ function Home2() {
                 LET ME <span className="purple"> INTRODUCE </span> MYSELF
               </h1>
               <p className="home-about-body">
-                I am a final-year B.Tech student in Computer Science and
-                Engineering at
+                I am Shaurya Pratap Singh, a
                 <i>
                   <b className="purple">
                     {" "}
-                    Rajiv Gandhi Institue of Petroleum Technology.{" "}
+                    Full-Stack Developer and Software Engineer{" "}
                   </b>
                 </i>
-                with a strong passion for web development, app development and
-                problem-solving. My expertise lies in React.js, Node.js,
-                MongoDB, React Native and Docker.
+                passionate about building scalable web applications and
+                innovative software solutions. With expertise in React.js,
+                Next.js, Node.js, MongoDB, Redis, Docker, and modern
+                frontend/backend frameworks, I focus on creating responsive,
+                user-friendly, and high-performance applications.
                 <br />
                 <br />
-                I recently completed a Web Developer Internship at Deep Scan,
-                where I developed production-ready websites and built a
-                data-processing platform to automate CSV-to-JSON conversions for
-                real-time API processing. Prior to this, during my internship at
-                Dumbledore Media, I worked on creating and deploying dynamic
-                websites for diverse industries like travel and education. My
-                work included integrating 3D effects using React Three Fiber,
-                ensuring responsiveness, and managing backend uptime using tools
-                like UptimeRobot. I deployed projects seamlessly on platforms
-                like Vercel and Render.
+                Over the past few years, I have worked on full-stack projects
+                and SaaS platforms, designing everything from frontend
+                interfaces to secure backend systems, including authentication,
+                payment integrations, and role-based content management. I enjoy
+                tackling complex technical challenges and delivering solutions
+                that have a real-world impact.
                 <br />
                 <br />
-                My portfolio highlights impactful projects, including a
-                logistics platform for food recycling, real-time review systems,
-                and facial recognition tools. I’m passionate about solving
-                problems, learning new technologies, and contributing to
-                innovative solutions.
+                You can explore my work, projects, and contributions on this
+                website, including platforms I’ve built for education, travel,
+                logistics, and social interactions. I’m always learning new
+                technologies and striving to turn ideas into functional,
+                scalable software.
                 {/* <i>
                   <b className="purple">BMC Design Media, </b>
                   <b className="purple">and Pratap Library.</b>

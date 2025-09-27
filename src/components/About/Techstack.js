@@ -12,9 +12,10 @@ import {
   DiGit,
   DiPython,
   DiCss3,
+  DiRedis,
 } from "react-icons/di";
 import { RiNextjsFill } from "react-icons/ri";
-import { SiTypescript } from "react-icons/si";
+import { SiApachekafka, SiTypescript } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandThreejs } from "react-icons/tb";
 import { SiExpress } from "react-icons/si";
@@ -109,8 +110,20 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <div className="flex justify-center items-center group relative">
+          <DiRedis />
+          <p className="hidden group-hover:block absolute bottom-[-26px] left-0 text-[14px] ">Redis</p>
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <div className="flex justify-center items-center group relative">
           <DiFirebase />
           <p className="hidden group-hover:block absolute bottom-[-26px] left-0 text-[14px] ">Firebase</p>
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <div className="flex justify-center items-center group relative">
+          <SiApachekafka />
+          <p className="hidden group-hover:block absolute bottom-[-26px] left-0 text-[14px] ">Kafka</p>
         </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">

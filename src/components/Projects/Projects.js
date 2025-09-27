@@ -19,12 +19,22 @@ import translator from "../../assets/Projects/translator.png";
 import stock from "../../assets/Projects/stockManager.png";
 import password from "../../assets/Projects/password.png";
 import voiceAI from "../../assets/Projects/voiceAI.png";
+import softbook from "../../assets/Projects/softbook.png";
 import ProjectOverview from "./ProjectOverview";
 
 function Projects() {
   const [domain, setDomain] = useState("");
 
   const projects = [
+    {
+      imgPath: softbook,
+      title: "Softbook",
+      description:
+        "Built & deployed a multi-tenant SaaS for study centers (100+ students each) with MERN stack. Features: role-based portals, JWT auth, Razorpay billing, QR attendance, seat booking, fee mgmt, PDF receipts, OTP reset, CSV export & Cloudinary uploads.",
+      ghLink: "https://github.com/Shaurya045/softbook",
+      demoLink: "https://softbook.co.in",
+      domains: ["Full-Stack", "Frontend", "Backend"],
+    },
     {
       imgPath: food,
       title: "Food Store",
